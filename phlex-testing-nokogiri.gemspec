@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
 	spec.name = "phlex-testing-nokogiri"
-	spec.version = "0.0.1"
+	spec.version = "0.1.0"
 	spec.authors = ["Joel Drapper"]
 	spec.email = ["joel@drapper.me"]
 
@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
 	spec.require_paths = ["lib"]
 
 	spec.add_dependency "nokogiri", "~> 1.13"
-	spec.add_dependency "phlex", "~> 0.5"
+	spec.add_dependency "phlex", ">= 0.5"
 
 	spec.metadata["rubygems_mfa_required"] = "true"
 end
